@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+</script>
+<script type="text/javascript">
+   (function(){
+      emailjs.init({
+        publicKey: "3eAtoCLIdiKbXM2X1",
+      });
+   })();
+</script>
+</head>
+<body>
+    <div class="nav-bar">
+        <a href="#About">About Me</a>
+        <a href="#Projects">Projects</a>
+        <a href="#Contact">Contact</a>
+    </div>
+    <div class="hero">
+        <h1 id="hero-header">Hello,I'm Balsa</h1>
+        <h3>Front-End Developer</h3>
+        <button onclick="scrollToSection('Projects')">See My Work</button>
+    </div>
+    <div id="About">
+        <h1 id="about">About Me</h1>
+        <p>I am a passionate front-end developer with experience in HTML, CSS, and JavaScript. I have worked on personal projects and enjoy creating visually appealing and functional websites. I am always eager to learn new technologies and enhance my skills in web development.</p>
+    </div>
+    <div id="Projects">
+        <h1 id="project">Projects</h1>
+        <div class="project1">
+            <h1>Calculator</h1>
+            
+            <a href="https://balsavujovic0612.github.io/Calculator/">View project</a>
+        </div>
+        <div class="project2">
+            <h1>Toggle-Dark-Mode</h1>
+            
+            <a href="https://balsavujovic0612.github.io/Toggle-Dark-Mode/">View project</a>
+        </div>
+        <div class="project3">
+            <h1>BootStrap-Website</h1>
+            
+            <a href="https://balsavujovic0612.github.io/BootStrap-Website/">View project</a>
+        </div>
+        <div class="project4">
+            <h1>New-Year-Counter</h1>
+            
+            <a href="https://balsavujovic0612.github.io/New-Year-Counter">View project</a>
+        </div>
+        <div class="project5">
+            <h1>SimpleStopWatch</h1>
+            
+            <a href="https://balsavujovic0612.github.io/SimpleStopWatch/">View project</a>
+        </div>
+        <div class="project6">
+            <h1>Pomodoro-timer</h1>
+            
+            <a href="https://balsavujovic0612.github.io/Pomodoro-timer/">View project</a>
+        </div>
+        <div class="project7">
+            <h1>Digital-Clock</h1>
+           
+            <a href="https://balsavujovic0612.github.io/Digital-Clock/">View project</a>
+        </div>
+        <div class="project8">
+            <h1>Simple-Wheater-App</h1>
+            
+            <a href="https://balsavujovic0612.github.io/Simple-Weather-App/">View project</a>
+        </div>
+        <div class="project9">
+            <h1>Rock-Paper-Scissors</h1>
+            
+            <a href="https://balsavujovic0612.github.io/Rock-Paper-Scissors/">View project</a>
+        </div>
+        <div class="project10">
+            <h1>Counter</h1>
+            
+            <a href="https://balsavujovic0612.github.io/Counter/">View project</a>
+        </div>
+        <div class="project11">
+            <h1>Random-Color-Generator</h1>
+            
+            <a href="https://balsavujovic0612.github.io/Random-Color-Generator/">View project</a>
+        </div>
+        <div class="project12">
+            <h1>To-Do-List</h1>
+            
+            <a href="https://balsavujovic0612.github.io/To-Do-list/">View project</a>
+        </div>
+        <div class="project13"></div>
+            <h1>Currency-Converter</h1>
+            <a href="https://balsavujovic0612.github.io/Currency-Converter/">View project</a>
+        </div>
+    </div>
+    <div id="Contact">
+        <h1 id="contact">Contact</h1>
+        <input type="text" placeholder="Name" id="inputName" >
+        <input type="email" placeholder="Email" id="inputEmail">
+        <textarea type="text" placeholder="Your Message" id="textArea"></textarea>
+        <button id="buttonSend" onclick="sendMail()">Send</button>
+    </div>
+    <div class="footer">
+        <h2 id="footer-h2">© 2024 Balsa. All Rights Reserved.</h2>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
