@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+   
+
+</head>
+<body>
+    <div class="container">
+        <div class="nav-bar">
+            <div class="label-name">
+                <label>Balsa <span>Vujovic</span></label>
+            </div>
+            <div class="nav-options">
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#service">Service</a>
+                <a href="#contact">Contact</a>
+            </div>
+        </div>
+        <div class="home" id ='home'>
+            <div class="text">
+                <h1>Hi,It's <span>Balsa</span></h1>
+                <h3>I'm a <span>Frontend Developer</span></h3>
+                <p>I am a passionate front-end developer specializing in HTML, CSS, and JavaScript.<br> I create responsive, user-friendly websites and strive to deliver clean, efficient code while<br> constantly learning new technologies.</p>
+                <div class="some-images">
+                    <a href="https://steamcommunity.com/profiles/76561199112355095/""><i class="fa-brands fa-steam" ></i></a>
+                    <a href="https://www.linkedin.com/in/balsa-vujovic-90b354312/"><i class="fa-brands fa-linkedin" ></i></a>
+                    <a href="https://github.com/BalsaVujovic0612"><i class="fa-brands fa-github" ></i></a>
+                </div>
+                <div class="buttons">
+                    <button onclick="window.location.href='https://www.linkedin.com/in/balsa-vujovic-90b354312/'">Hire</button>
+                    <button onclick="location.href='#contact'">Contact</button>
+                </div>
+            </div> 
+            <div class="image-part">
+                <img src="hacker.png" alt="">
+            </div>
+        </div>
+    </div>
+    <div class="container2">
+        <div class="about-me" id='about'>
+            <img src="hacker.png" alt="" >
+            <div class="text1">
+                <h1>About <span>Me</span></h1>
+                <p>I am a dedicated front-end developer with a strong foundation in HTML, CSS, and JavaScript.<br> My passion lies in building responsive, user-friendly websites that not only look great but also deliver seamless functionality.<br> With a focus on clean, efficient code, I enjoy crafting digital experiences<br> that are both visually appealing and intuitive to use.<br> I am always eager to learn and integrate new technologies to stay current in the fast-evolving world of web development.</p>
+            </div>
+        </div>
+    </div>
+    <div class="container3">
+        <div class="service-part">
+            <h1 id="service">Services</h1>
+            <div class="sliders">
+                <div class="slide-one">
+                    <img src="app-development.png" alt="" id="app-image">
+                    <h1 id="service-text">Mobile App Development</h1>
+                    <p>Front-End Development: Building visually appealing, responsive, and user-friendly mobile interfaces using modern frameworks like React Native or Flutter. I focus on creating intuitive user experiences tailored to each platform, ensuring smooth and efficient navigation.
+                    Back-End Development: Developing reliable, scalable, and secure server-side applications and APIs that support mobile apps. I work with technologies like Node.js, Express, and databases like MongoDB or PostgreSQL to ensure seamless data flow and functionality.</p>
+                </div>
+                <div class="slide-two">
+                    <img src="coding.png" alt="" id="coding-img">
+                    <h1 id="service-text">Front-End Development</h1>
+                    <p>Web Design & Development: Crafting responsive, clean, and interactive websites using HTML, CSS, and JavaScript. My work emphasizes both functionality and aesthetics to engage users and deliver a seamless browsing experience across devices.
+                    UI/UX Optimization: Focusing on user experience by implementing best practices in UI/UX design to improve user engagement and accessibility. I ensure the interface is easy to navigate, with an emphasis on visual hierarchy and responsiveness.</p>
+                </div>
+                <div class="slide-three">
+                    <img src="backend-coding.png" alt="" id="backend-img">
+                    <h1 id="service-text">Back-End Development</h1>
+                    <p>API Development & Integration: Designing and implementing robust RESTful APIs that enable efficient communication between front-end applications and servers. I ensure secure, scalable, and reliable data exchanges.
+                    Database Management: Building and maintaining database structures, implementing data storage solutions, and managing data with a focus on security and efficiency. I work with both SQL and NoSQL databases, including PostgreSQL, MongoDB, and MySQL.</p>
+                </div>
+        </div>
+        </div>
+    </div>
+    <div class="container4" id="contact">
+            <h1 id="contact">Contact <span>Me</span></h1>
+        <div class="contact-area">
+            <div class="input-area">
+                <input type="text" id="nameInput" placeholder="Full Name">
+                <input type="email" id="emailInput" placeholder="Email">
+                <input type="number" id="phoneInput" placeholder="Phone Number">
+                <input type="text" id="subjectInput" placeholder="Subject">
+            </div>
+            <div class="area-and-btn">
+                <textarea type="text"   id="text-area" placeholder="Your Message"></textarea>
+                <button id="messageBtn">Send Message</button>
+            </div>
+        </div>
+    </div>
+    <footer onsubmit="sendEmail();">
+        <div class="footer-images">
+            <a href="https://steamcommunity.com/profiles/76561199112355095/""><i class="fa-brands fa-steam" ></i></a>
+            <a href="https://www.linkedin.com/in/balsa-vujovic-90b354312/"><i class="fa-brands fa-linkedin" ></i></a>
+            <a href="https://github.com/BalsaVujovic0612"><i class="fa-brands fa-github" ></i></a>
+        </div>
+        <div class="a-links">
+            <a href="#home" >Home</a>
+            <a href="#about">About</a>
+            <a href="#service">Services</a>
+            <a href="#contact">Contact</a>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
